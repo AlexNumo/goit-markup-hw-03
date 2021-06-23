@@ -23,17 +23,13 @@ ul li{
 
 
 /*=============HEADER==========================*/
+
 .navigation-bar{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
-
-.navigation-bar a{
-    color: #000000;
-}
-
 
 .navigation-bar-contacts{
     color: var(--main-color);
@@ -59,7 +55,9 @@ ul li{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    display: inline-flex;
 }
+
 
 .mail-link{
     font-family: "Roboto", sans-serif;
@@ -81,6 +79,11 @@ ul li{
     color:#757575;
 }
 
+.flex-mail-phone{
+    display: inline-flex;
+    
+}
+
 .navigation-bar-studio:hover{
     color: #2196F3;
 }
@@ -100,6 +103,8 @@ ul li{
 .phone-link:hover{
     color: #2196F3;
 }
+
+
 
 /*=============HERO==========================*/
 .business{
