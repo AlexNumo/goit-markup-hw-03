@@ -21,14 +21,33 @@ ul li{
     list-style: none;
 }
 
+header{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
 
 /*=============HEADER==========================*/
+
+.flex-header{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 215px;
+}
 
 .navigation-bar{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-color);
+}
+
+.navigation-bar a{
+    color: #000000;
 }
 
 .navigation-bar-contacts{
@@ -56,8 +75,10 @@ ul li{
     letter-spacing: 0.02em;
     color: var(--main-color);
     display: inline-flex;
+    margin-left: 93px;
+    justify-content: center;
+    flex-basis: 200px;
 }
-
 
 .mail-link{
     font-family: "Roboto", sans-serif;
@@ -81,7 +102,7 @@ ul li{
 
 .flex-mail-phone{
     display: inline-flex;
-    
+    margin-left: 331px;
 }
 
 .navigation-bar-studio:hover{
@@ -104,8 +125,6 @@ ul li{
     color: #2196F3;
 }
 
-
-
 /*=============HERO==========================*/
 .business{
     font-family: "Roboto", sans-serif;
@@ -116,7 +135,7 @@ ul li{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
 }
 
 .button-service{
@@ -132,6 +151,12 @@ ul li{
     color: #FFFFFF;  
     background-color: #2196F3;
 }
+.bussiness-position{
+    width: 1600px;
+    height: 600px;
+    margin-top: 80px;
+}
+
 
 /*=============WAYS FOR BUSINESS==========================*/
 .ways{
