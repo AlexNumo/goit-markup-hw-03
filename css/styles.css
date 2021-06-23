@@ -1,0 +1,270 @@
+:root{
+    --main-color:#212121;
+}
+
+body{
+    color: black;
+    font-family: "Raleway", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
+
+.active-page{
+    color: #2196F3;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+/*=============HEADER==========================*/
+.navigation-bar{
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.navigation-bar a{
+    color: #000000;
+}
+
+
+.navigation-bar-contacts{
+    color: var(--main-color);
+}
+
+.navigation-bar-studio{
+    color: var(--main-color);
+}
+
+.navigation-bar-portfolio{
+    color: var(--main-color);
+}
+
+.logo-thre-letters{
+    color: #2196F3;
+}
+
+.navigation-link{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.mail-link{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:#757575;
+}
+
+.phone-link{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:#757575;
+}
+
+.navigation-bar-studio:hover{
+    color: #2196F3;
+}
+
+.navigation-bar-portfolio:hover{
+    color: #2196F3;
+}
+
+.navigation-bar-contacts:hover{
+    color: #2196F3;
+}
+
+.mail-link:hover{
+    color: #2196F3;
+}
+
+.phone-link:hover{
+    color: #2196F3;
+}
+
+/*=============HERO==========================*/
+.business{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-service{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;  
+    background-color: #2196F3;
+}
+
+/*=============WAYS FOR BUSINESS==========================*/
+.ways{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color)
+}
+
+.ways-option{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-transform: none;
+}
+
+/*=============OUR WORK==========================*/
+
+.our-work{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color)
+}
+
+/*=============OUR TEAM==========================*/
+
+.our-team{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color)
+}
+
+.team-member{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color)
+}
+
+.member-profession{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*=============FOOTER==========================*/
+
+.footer{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address-mail{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-phone{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*=============PORTFOLIO==========================*/
+
+.button-service-portfolio{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color)
+}
+
+.button-service-portfolio:hover{
+    background: #2196F3;
+    color:white;
+}
+
+.name-content{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color)
+}
+
+.direction{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
