@@ -52,6 +52,7 @@ header{
 
 .navigation-bar-contacts{
     color: var(--main-color);
+    padding-left: 50px;
 }
 
 .navigation-bar-studio{
@@ -60,6 +61,7 @@ header{
 
 .navigation-bar-portfolio{
     color: var(--main-color);
+    padding-left: 50px;
 }
 
 .logo-thre-letters{
@@ -75,9 +77,7 @@ header{
     letter-spacing: 0.02em;
     color: var(--main-color);
     display: inline-flex;
-    margin-left: 93px;
-    justify-content: center;
-    flex-basis: 200px;
+    padding-left: 93px;
 }
 
 .mail-link{
@@ -98,11 +98,12 @@ header{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:#757575;
+    padding-left: 50px;
 }
 
 .flex-mail-phone{
     display: inline-flex;
-    margin-left: 331px;
+    padding-left: 331px;
 }
 
 .navigation-bar-studio:hover{
@@ -135,7 +136,11 @@ header{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
+    padding-top: 200px;
+    padding-left: 452px;
+    top: 120px;
+    width: 1148px;
 }
 
 .button-service{
@@ -150,11 +155,18 @@ header{
     letter-spacing: 0.06em;
     color: #FFFFFF;  
     background-color: #2196F3;
+    margin-top: 30px;
+    margin-left: 700px;
+    width: 216px;
+    height: 56px;
+    padding: 10px 32px 10px 32px;
 }
+
 .bussiness-position{
     width: 1600px;
     height: 600px;
     margin-top: 80px;
+    background: #2F303A;
 }
 
 
@@ -179,6 +191,15 @@ header{
     letter-spacing: 0.03em;
     color: #757575;
     text-transform: none;
+}
+
+.ways-position{
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*=============OUR WORK==========================*/
