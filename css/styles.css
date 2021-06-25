@@ -59,6 +59,7 @@ ol{
 
 .position-header{
     display: flex;
+    height: 80px;
 }
 
 .navigation-link{
@@ -266,6 +267,29 @@ ol{
 
 /*=============OUR TEAM==========================*/
 
+.our-team-position{
+    background-color: #F5F4FA;
+    padding-bottom: 94px;
+}
+
+.member-card{
+    width: 270px;
+    height: 368px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 50px;
+}
+
+.member-card:not(:last-child) {
+    margin-right: 50px;
+}
+
+.our-team-members{
+    display: flex;
+    margin-left: 215px;
+}
+
 .our-team{
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -274,7 +298,8 @@ ol{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color)
+    color: var(--main-color);
+    padding-top: 94px;
 }
 
 .team-member{
@@ -285,7 +310,8 @@ ol{
     line-height: 1,19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color)
+    color: var(--main-color);
+    margin-top: 30px;
 }
 
 .member-profession{
@@ -297,7 +323,10 @@ ol{
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 10px;
 }
+
+/*=============END OUR TEAM==========================*/
 
 /*=============FOOTER==========================*/
 
