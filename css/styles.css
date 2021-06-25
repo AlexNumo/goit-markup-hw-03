@@ -58,7 +58,6 @@ ol{
 }
 
 .position-header{
-    height: 80px;
     display: flex;
 }
 
@@ -147,6 +146,8 @@ ol{
     color: #2196F3;
 }
 
+/*=============END HEADER==========================*/
+
 /*=============HERO==========================*/
 .business{
     font-family: "Roboto", sans-serif;
@@ -158,6 +159,12 @@ ol{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-top: 200px;
+}
+
+.business-background{
+    background-color: #2F303A;
+    padding-bottom: 200px;
 }
 
 .button-service{
@@ -172,9 +179,30 @@ ol{
     letter-spacing: 0.06em;
     color: #FFFFFF;  
     background-color: #2196F3;
+    margin-top: 30px;
+    margin-left: 700px; /*=============Нужно придумать как изменить на центрирование кнопки==========================*/
 }
+/*=============END HERO==========================*/
 
 /*=============WAYS FOR BUSINESS==========================*/
+
+.hiden-ways{
+    margin-left: -700px;
+    height: 0px;
+}
+
+.ways-background{
+    background-color: #E5E5E5;
+}
+
+.ways-position{
+    display: flex;
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+    background-color: #E5E5E5;;
+}
+
 .ways{
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -183,7 +211,10 @@ ol{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-color)
+    color: var(--main-color);
+    margin-bottom: 10px;
+    width: 270px;
+    height: 16px;
 }
 
 .ways-option{
@@ -195,7 +226,11 @@ ol{
     letter-spacing: 0.03em;
     color: #757575;
     text-transform: none;
+    width: 270px;
+    height: 75px;
 }
+
+/*=============END WAYS==========================*/
 
 /*=============OUR WORK==========================*/
 
