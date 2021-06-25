@@ -200,7 +200,7 @@ ol{
     margin-top: 94px;
     margin-left: 215px;
     margin-right: 215px;
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
 }
 
 .ways{
@@ -234,6 +234,11 @@ ol{
 
 /*=============OUR WORK==========================*/
 
+.our-work-position{
+    padding-top: 94px;
+    background-color: #E5E5E5;
+}
+
 .our-work{
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -242,8 +247,21 @@ ol{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color)
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
 }
+
+.our-work-image{
+    display: flex;
+    margin-left: 215px;
+}
+
+.our-work-image-position:not(:last-child) {
+    margin-right: 50px;
+}
+
+/*=============END OUR WORK==========================*/
 
 /*=============OUR TEAM==========================*/
 
