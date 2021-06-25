@@ -17,66 +17,49 @@ a{
     color: #2196F3;
 }
 
-ul li{
+ul{
     list-style: none;
 }
 
-h1 h2 h3 h4 h5 h6 p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-ul ol{
+ul,
+ol{
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
 }
 
-header{
-    position: absolute;
+.container{
     width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 0 15px;
 }
-
 
 /*=============HEADER==========================*/
-
-.flex-header{
-    display: flex;
-    margin-top: 24px;
-    margin-left: 215px;
-}
 
 .navigation-bar{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-color);
+    display: flex;
+    margin-top: 24px;
+    margin-left: 215px;
 }
 
-.navigation-bar a{
-    color: #000000;
-}
-
-.navigation-bar-contacts{
-    color: var(--main-color);
-    padding-left: 50px;
-}
-
-.navigation-bar-studio{
-    color: var(--main-color);
-}
-
-.navigation-bar-portfolio{
-    color: var(--main-color);
-    padding-left: 50px;
-}
-
-.logo-thre-letters{
-    color: #2196F3;
+.position-header{
+    height: 80px;
+    display: flex;
 }
 
 .navigation-link{
@@ -87,8 +70,9 @@ header{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    display: inline-flex;
-    padding-left: 93px;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 93px;
 }
 
 .mail-link{
@@ -99,6 +83,7 @@ header{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:#757575;
+    margin-right: 50px;
 }
 
 .phone-link{
@@ -109,12 +94,37 @@ header{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:#757575;
-    padding-left: 50px;
 }
 
-.flex-mail-phone{
-    display: inline-flex;
-    padding-left: 331px;
+.navigation-position:not(:last-child) {
+    margin-right: 50px;
+}
+
+.mail-phone-position{
+    display: flex;
+    margin-top: 28px;
+    margin-left: auto;
+}
+
+.navigation-bar a{
+    color: #000000;
+}
+
+
+.navigation-bar-contacts{
+    color: var(--main-color);
+}
+
+.navigation-bar-studio{
+    color: var(--main-color);
+}
+
+.navigation-bar-portfolio{
+    color: var(--main-color);
+}
+
+.logo-thre-letters{
+    color: #2196F3;
 }
 
 .navigation-bar-studio:hover{
@@ -148,10 +158,6 @@ header{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top: 200px;
-    padding-left: 452px;
-    top: 120px;
-    width: 1148px;
 }
 
 .button-service{
@@ -166,34 +172,9 @@ header{
     letter-spacing: 0.06em;
     color: #FFFFFF;  
     background-color: #2196F3;
-    margin-top: 30px;
-    margin-left: 700px;
-    width: 216px;
-    height: 56px;
-    padding: 10px 32px 10px 32px;
 }
-
-.bussiness-position{
-    width: 1600px;
-    height: 600px;
-    margin-top: 80px;
-    background: #2F303A;
-}
-
 
 /*=============WAYS FOR BUSINESS==========================*/
-
-.hiden-ways-business{
-    margin-left: -500px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 0px;
-}
-
-.ways-background-color{
-    background-color: #E5E5E5;;
-}
-
 .ways{
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -216,19 +197,6 @@ header{
     text-transform: none;
 }
 
-.ways-position{
-    width: 1170px;
-    height: 101px;
-    left: 215px;
-    top: 774px;
-    padding: 0px;
-    margin: 0px;
-    display: inline-flex;
-    margin-left: 215px;
-    margin-top: 94px;
-    margin-right: 215px;
-}
-
 /*=============OUR WORK==========================*/
 
 .our-work{
@@ -239,59 +207,10 @@ header{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color);
-    display: inline-flex;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    padding: 0px;
-}
-
-.position-maket-1{
-    padding: 0px;
-}
-
-.position-maket-2{
-    padding-left: 30px;
-}
-
-.position-maket-3{
-    padding-left: 30px;
-}
-
-.our-work-direction{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-color);
-    margin-top: 94px;
-    margin-left: 215px;
-    margin-right: 215px;
-    padding-left: 0px;
-    margin-bottom: 0px;
-}
-
-.flex-position-our-work{
-    width: 1170px;
-    height: 386px;
-    margin-left: 215px;
-    background-color: #E5E5E5;;
-    
+    color: var(--main-color)
 }
 
 /*=============OUR TEAM==========================*/
-
-.our-team-position{
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
-    margin-top: 94px;
-    background-color: #F5F4FA;
-}
 
 .our-team{
     font-family: "Roboto", sans-serif;
@@ -301,16 +220,7 @@ header{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color);
-    padding: 94px 0px 0px 0px;
-    margin: 0px;
-}
-
-.flex-position{
-    display: flex;
-    margin: 50px 0px 0px 0px;
-    padding: 0px 0px 0px 215px;
-
+    color: var(--main-color)
 }
 
 .team-member{
@@ -333,28 +243,6 @@ header{
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-}
-
-.igor-demyianenko{
-    padding: 0px;
-}
-
-.olga-repina{
-    margin-left: 30px;
-}
-
-.nykolay-tarasov{
-    margin-left: 30px;
-}
-
-.mykhail-ermakov{
-    margin-left: 30px;
-}
-
-.member-position{
-    background-color: #FFFFFF;
-    width: 270px;
-    height: 368px;
 }
 
 /*=============FOOTER==========================*/
