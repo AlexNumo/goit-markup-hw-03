@@ -387,7 +387,40 @@ ol{
 
 /*=============END FOOTER==========================*/
 
-/*=============PORTFOLIO==========================*/
+/*=============PORTFOLIO==============================================================================================================================*/
+
+.portfolio-background{
+    background-color: #E5E5E5;    
+    padding-bottom: 94px;  
+}
+
+.button-position{
+    display: flex;
+    padding-top: 94px; 
+    justify-content: center;
+}
+
+.button-margin:not(:last-child){
+    margin-right: 8px;
+}
+
+.content-position{
+    display: flex;
+    width: 1170px;
+    height: 1360px; 
+    margin-top: 50px;
+    margin-left: 215px;
+    margin-right: 215px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-basis: calc ( ( 100% - 30px ) / 3); /*===Не могу решить проблему*/
+}
+
+.content-maket{
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
 
 .button-service-portfolio{
     font-family: "Roboto", sans-serif;
@@ -397,7 +430,10 @@ ol{
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color)
+    color: var(--main-color);
+    display: flex;
+    padding: 6px 22px 6px 22px;
+    border: 0px;
 }
 
 .button-service-portfolio:hover{
@@ -412,15 +448,20 @@ ol{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--main-color)
+    color: var(--main-color);
+    margin-top: 20px;
+    margin-left: 24px;
+
 }
 
 .direction{
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 4px;
+    margin-left: 24px;
 }
