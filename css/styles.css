@@ -403,10 +403,12 @@ ol{
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+    width: 370px;
 }
 
 .content-maket-position{
-    flex-basis: calc ( ( 100% - 30px ) / 3); /*===Не могу решить проблему (ерунда)*/
+    flex-basis:calc((100% - 30px) / 3);
 }
 
 .button-service-portfolio{
