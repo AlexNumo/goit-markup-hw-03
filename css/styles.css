@@ -54,7 +54,6 @@ ol{
     color: var(--main-color);
     display: flex;
     margin-top: 24px;
-    padding-left: 215px;
 }
 
 .position-header{
@@ -192,6 +191,7 @@ ol{
 
 .ways-section-position{
     background-color: #E5E5E5;
+    padding-top: 94px;
 }
 
 .hiden-ways{
@@ -201,7 +201,7 @@ ol{
 
 .ways-position{
     display: flex;
-    padding: 94px 215px 0px 215px;
+    padding: 94px 0px 0px 0px;
    
 }
 
@@ -234,8 +234,7 @@ ol{
 
 .our-work-position{
     padding-top: 94px;
-    background-color: #E5E5E5;
-    padding-bottom: 94px;
+    margin-bottom: 94px;
 }
 
 .our-work{
@@ -263,6 +262,8 @@ ol{
 
 .our-team-position{
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .member-card{
@@ -276,7 +277,6 @@ ol{
 .our-team-members{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 94px;
 }
 
 .our-team{
@@ -288,7 +288,6 @@ ol{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 
@@ -322,7 +321,7 @@ ol{
 
 .footer-position{
     background-color: #2F303A;
-    height: 192px;
+    padding-bottom: 60px;
     padding-top: 60px;
 }
 
@@ -334,8 +333,6 @@ ol{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    padding-left: 215px;
-    padding-top: 20px;
 }
 
 .footer-living{
@@ -346,8 +343,7 @@ ol{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    padding-top: 20px;
-    padding-left: 215px;
+    margin-top: 20px;
 }
 
 .address-mail{
@@ -358,8 +354,7 @@ ol{
     line-height: 1.72;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    padding-top: 9px;
-    padding-left: 215px;
+    margin-top: 9px;
 }
 
 .address-phone{
@@ -370,17 +365,16 @@ ol{
     line-height: 1.72;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    padding-top: 9px;
-    padding-left: 215px;
+    margin-top: 9px;
 }
 
 /*=============END FOOTER==========================*/
 
 /*=============PORTFOLIO==============================================================================================================================*/
 
-.portfolio-background{
-    background-color: #E5E5E5;    
-    padding-bottom: 94px;  
+.portfolio-background{    
+    padding-bottom: 94px;
+    border-top: 1px solid #ECECEC; 
 }
 
 .button-position{
@@ -395,21 +389,20 @@ ol{
 
 .content-position{
     display: flex;
-    width: 1170px;
-    height: 1360px; 
-    padding-top: 50px;
+    margin-top: 50px;
     flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-between;
-    flex-basis: calc ( ( 100% - 30px ) / 3); /*===Не могу решить проблему*/
 }
 
 .content-maket{
     background-color: #FFFFFF;
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
     display: flex;
-    flex-basis: calc ( ( 100% - 30px ) / 3); /*===Не могу решить проблему (ерунда)*/
+}
+
+.content-border{
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .content-maket-position{
@@ -445,7 +438,6 @@ ol{
     color: var(--main-color);
     padding-top: 20px;
     padding-left: 24px;
-
 }
 
 .direction{
