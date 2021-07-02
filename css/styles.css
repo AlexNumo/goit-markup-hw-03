@@ -166,7 +166,7 @@ ol{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .button-service{
@@ -190,20 +190,27 @@ ol{
 /*=============WAYS FOR BUSINESS==========================*/
 
 .ways-section-position{
-    background-color: #E5E5E5;
     padding-top: 94px;
 }
 
 .hiden-ways{
-    margin-left: -700px;
-    height: 0px;
+    display: none;
 }
 
 .ways-position{
     display: flex;
-    padding: 94px 0px 0px 0px;
-   
+    
 }
+
+.ways-card-position{
+    width: 270px;
+    height: 101px;
+}
+
+.ways-card-position:not(:nth-last-child(1)){
+    margin-right: 30px;
+}
+
 
 .ways{
     font-family: "Roboto", sans-serif;
@@ -234,7 +241,7 @@ ol{
 
 .our-work-position{
     padding-top: 94px;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .our-work{
@@ -253,7 +260,7 @@ ol{
 .our-work-image{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 /*=============END OUR WORK==========================*/
@@ -288,7 +295,7 @@ ol{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-member{
@@ -354,7 +361,6 @@ ol{
     line-height: 1.72;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    margin-top: 9px;
 }
 
 .address-phone{
@@ -365,6 +371,13 @@ ol{
     line-height: 1.72;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail-position{
+    margin-top: 9px;
+}
+
+.address-phone-position{
     margin-top: 9px;
 }
 
@@ -374,12 +387,12 @@ ol{
 
 .portfolio-background{    
     padding-bottom: 94px;
-    border-top: 1px solid #ECECEC; 
+    padding-top: 94px; 
+    border-top: 1px solid #ECECEC;
 }
 
 .button-position{
     display: flex;
-    padding-top: 94px; 
     justify-content: center;
 }
 
@@ -397,18 +410,21 @@ ol{
     background-color: #FFFFFF;
     box-sizing: border-box;
     display: flex;
+    margin-left: -30px;
 }
 
 .content-border{
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
-    margin-bottom: 30px;
     width: 370px;
+    padding: 20px 0px 20px 24px;    
 }
 
 .content-maket-position{
-    flex-basis:calc((100% - 30px) / 3);
+    flex-basis:calc((100% - 90px) / 3);
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .button-service-portfolio{
@@ -438,8 +454,6 @@ ol{
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
-    padding-top: 20px;
-    padding-left: 24px;
 }
 
 .direction{
@@ -451,10 +465,8 @@ ol{
     letter-spacing: 0.03em;
     color: #757575;
     padding-top: 4px;
-    padding-left: 24px;
 }
 
 .hiden-h2{
-    margin-left:-700px;
-    height: 0px;
+    display: none;
 }
